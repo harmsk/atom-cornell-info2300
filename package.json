@@ -1,0 +1,32 @@
+{
+  "name": "cornell-info2300",
+  "main": "./lib/cornell-info2300",
+  "version": "0.1.1",
+  "description": "Support package for Cornell University's INFO/CS 2300 course",
+  "keywords": [
+    "cornell",
+    "info-2300",
+    "info2300"
+  ],
+  "repository": "https://github.com/harmsk/atom-cornell-info2300",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "latest"
+  },
+  "package-deps": [
+    "atom-ide-ui",
+    "ide-css",
+    "ide-html",
+    "ide-php",
+    "ide-typescript",
+    "php-server#harmsk/atom-php-server",
+    "package-switch",
+    "editorconfig",
+    "color-picker",
+    "pigments",
+    "teletype"
+  ]
+}
