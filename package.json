@@ -13,6 +13,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "scripts": {
+    "preinstall": "apm uninstall cornell-info1300 || apm disable w3c-validation || exit 0"
+  },
   "dependencies": {
     "atom-package-deps": "latest"
   },
@@ -24,7 +27,6 @@
     "ide-typescript",
     "php-server#harmsk/atom-php-server",
     "package-switch",
-    "editorconfig",
     "color-picker",
     "pigments",
     "teletype"
